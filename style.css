@@ -1,0 +1,557 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: rgba(26, 15, 70, 1);
+    color: white;
+}
+header {
+    height: 6rem;
+    display: flex;
+    background-color: white;
+}
+header img {
+    height: 4rem;
+    padding: 0.8rem 2rem;
+}
+header button {
+    position: absolute;
+    right: 3%;
+    top: 2.5%;
+    padding: 1rem 2rem;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.content1 {
+    height: 100vh;
+}
+.component {
+    position: relative;
+    top: 5rem;
+    width: 90%;
+    left: 5rem;
+}
+.details {
+    background-color: rgba(210, 0, 0, 1);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    width: 18rem;
+    padding: 0.5rem 0rem;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.component{
+    color:white;
+}
+.component h2 {
+    color: white;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+.component h2 span {
+    color: yellow;
+    font-weight: bold;
+}
+.component button{
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #ffffff38;
+    color:white;
+    margin:1rem 0rem;
+}
+.certificate-partner{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.box{
+    background-color: white;
+    padding: 0.4rem;
+    border-radius:10px;
+}
+.box img{
+    height:2.5rem;
+}
+/*CALENDER*/
+.calender{
+    border: 2px dashed red;
+    width: 17rem;
+    padding: 0.5rem 2rem;
+    margin: 2rem 0rem;
+}
+/*TICK*/
+.tick{
+    background-color: rgba(0, 195, 43, 1);
+    width: 1rem;
+    margin: 0.4rem;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    padding: 0.1rem;
+}
+/*EXPLORE*/
+.explore{
+    background-color: rgba(255, 199, 0, 1);
+    color: rgba(0, 0, 0, 1);
+    width: 18rem;
+    padding: 0.5rem 0rem;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin: 2rem 0rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+/*FORM CONTAINER*/
+.form-container{
+    background-color: white;
+    color: black;
+    height: 80%;
+    position: relative;
+    top: 5rem;
+    right: 10%;
+    width: 40%;
+    border-radius: 10px;
+}
+.form-group label{
+    font-size: 24px;
+}
+form{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+form input{
+    height: 1.5rem;
+    width: 95%;
+    border: 1.5px solid rgb(13, 87, 197);
+    border-radius: 3px;
+    padding: 0.5rem;
+}
+form button{
+    background-color: rgb(13, 87, 197);
+    color: white;
+    padding: 1rem 0rem;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 2.5rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+/*CONTENT02*/
+.content2{
+    background-color: rgba(26, 15, 70, 1);
+    height: 50vh;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content2 h2{
+    color: black;
+    padding-bottom: 2rem;
+}
+.broucher{
+    background-color: white;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    position: relative;
+    border-radius: 10px;
+    padding: 2rem 0rem;
+}
+.broucher2{
+    background-color: white;
+    padding: 1rem;
+    width: 100%;
+    margin-top: 6rem;
+}
+.company-logo{
+    display: flex;
+    justify-content: center;
+    gap: 7%;
+    padding-bottom: 0.5rem;
+}
+.company-logo img{
+    height:3rem;
+}
+/*CONTENT 3*/
+.content3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:3rem;
+}
+.content3 .box{
+    background-color: red;
+    color: white;
+    border-radius: 0px;
+    font-size: 0.8rem;
+    width: 18%;
+    font-weight: bold;
+    margin-top: 1rem;
+    padding: 0.2rem 1rem;
+    text-align: center;
+}
+/* Grid Container */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10% 0%;
+    padding: 3rem;
+    padding-left: 10%;
+    margin-bottom:3rem;
+}
+
+/* Grid Items */
+.grid-item {
+    background-color: white;
+    width: 66%;
+    border-radius: 5px;
+    text-align: center;
+}
+.grid-item img{
+    margin-top: 3%;
+    width: 95%;
+}
+.grid-item span{
+    color:black;
+    font-size: 8px;
+    font-weight: bold;
+    padding: 0.2rem 0.4rem;
+}
+.grid-action{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding-bottom: 0.5rem;
+    margin-top: 1.5rem;
+}
+.grid-action button{
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.8rem;
+    border:none;
+    border-radius: 3px;
+    padding:2% 4%;
+}
+
+/*Container4*/
+
+.content4{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    padding-top: 2rem;
+    text-align: center;
+}
+.content4 button{
+    background-color: rgba(25, 14, 69, 0.12);
+}
+.content4 h1{
+    color:rgba(0, 0, 0, 1);
+}
+.content4 h2{
+    color:rgba(0, 0, 0, 1);
+}
+.content4 h4{
+    color: rgba(71, 71, 71, 1);
+    font-weight: normal;
+}
+.action-button{
+    display: flex;
+    justify-content: center;
+    gap: 3.5%;
+    margin-top: 2rem;
+}
+.action-button button{
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 13%;
+    font-weight: bold;
+    padding: 0.7rem;
+    cursor: pointer;
+}
+.certificate-section{
+    display: flex;
+    padding: 4% 19%;
+}
+.certificate-section img{
+    height:293.33px;
+    width: 40%;
+}
+.certificate-description{
+    text-align: left; 
+    padding-left: 5%; 
+    width: 38rem
+}
+
+/*Content-05*/
+.content5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 1rem;
+    text-align: center;
+}
+.content5 h2{
+    color:white;
+    font-weight: normal;
+}
+.content5 button{
+    padding: 0.5rem 1rem;
+    border: 1px solid rgba(255, 199, 0, 1);
+    background-color: rgb(26, 15, 70);
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/*Footer*/
+footer{
+    background-color: rgba(228, 214, 104, 1);
+  color: rgba(0, 0, 0, 1);
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+/*Responsive Design*/
+/* Tablet (min-width: 768px and max-width: 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    header {
+        height: 5rem;
+        padding: 0 1.5rem;
+        justify-content: space-between;
+    }
+    header img {
+        height: 3.5rem;
+    }
+    header button {
+        font-size: 1rem;
+        padding: 0.8rem 1.5rem;
+    }
+
+    .content1 {
+        padding: 0.5rem;
+        flex-direction: column;
+
+    }
+    .component{
+        top:3rem;
+        left:2rem;
+    }
+    .content2{
+        position: relative;
+        top: 60vh;
+    }
+    .content3{
+        position: relative;
+        top: 60vh;
+        height: 115rem;
+    }
+    .content3 .box{
+        width:40%;
+        text-align: center;
+    }
+    .company-logo img{
+        height:1.5rem;
+    }
+    .broucher{
+        width:85%;
+    }
+    .form-container {
+        width: 80%;
+        height:65%;
+        left:10%;
+        padding-bottom: 1rem;
+    }
+    .form-container button{
+        padding: 0.7rem 0rem;
+        top:2rem;
+    }
+    .action-button button{
+        width: 10rem;
+    }
+    .certificate-section{
+        flex-direction: column;
+    }
+    .certificate-section img{
+        width: initial;
+    }
+    .certificate-description{
+        text-align: left;
+        padding-left: 0%;
+        width: 30rem;
+        margin-top: 3rem;
+    }
+    form{
+        padding: 3rem;
+        gap:0.5rem;
+    }
+    .form-group label{
+        font-size: 20px;
+    }
+    .company-logo{
+        gap:5%;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+        padding: 1rem;
+    }
+    .grid-item {
+        width: auto;
+    }
+    footer {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+}
+
+/* Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+    header {
+        height: auto;
+    }
+    header img {
+        height: 3rem;
+        margin-bottom: 0.5rem;
+    }
+    header button {
+        font-size: 0.9rem;
+        padding: 0.6rem 1rem;
+    }
+
+    .content1 {
+        flex-direction: column;
+    }
+    .component{
+        top:3rem;
+        left:2rem;
+    }
+    .component button{
+        font-size: 0.8rem;
+        padding: 0.2rem 0.7rem;
+    }
+    .component h2 {
+        font-size: 1.2rem;
+    }
+    .box img{
+        height:1.8rem;
+    }
+    .certificate-partner{
+        gap: 4%;
+    }
+    .certificate-partner h4{
+        font-size: 0.7rem;
+    }
+    .form-container {
+        width: 80%;
+        padding: 0.5rem;
+        left: 10%;
+        padding: 0.7rem 0rem;
+    }
+    .form-container button{
+        margin-bottom: 0rem;
+        top:1.5rem;
+    }
+    .form-group label{
+        font-size: 16px;
+        top:1.5rem;
+    }
+    .content2{
+        position: relative;
+        top:30rem;
+    }
+    .content2 h4{
+        font-size: 0.7rem;
+    }
+    .content3{
+        position: relative;
+        top: 20rem;
+        height: 145rem;
+    }
+    .content3 .box{
+        width:80%;
+        text-align: center;
+    }
+    .calender{
+        width:75%;
+    }
+    .content5 h2{
+        font-size: 1rem;
+    }
+    .broucher{
+        width: 95%;
+        padding:1rem 0rem;
+    }
+    .broucher h1{
+        font-size: 1.5rem;
+    }
+    .broucher h4{
+        font-size: 0.5rem;
+    }
+    .broucher2{
+        margin-top: 2rem;
+    }
+    .company-logo img{
+        height:0.8rem;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 0.5rem;
+        margin-top: 2rem;
+    }
+    .action-button button{
+        font-size: 0.7rem;
+        width:5rem;
+    }
+    .grid-item {
+        width: 100%;
+    }
+    .certificate-section{
+        flex-direction: column;
+        padding: 4% 10%;
+        gap:3rem;
+    }
+    .certificate-section img{
+        width: 100%;
+    }
+    .certificate-description{
+        padding-left: 0%;
+        width:100%;
+    }
+    .description{
+        width:90%;
+    }
+    footer {
+        font-size: 0.8rem;
+        text-align: center;
+        padding: 0.5rem;
+    }
+}
